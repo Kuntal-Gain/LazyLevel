@@ -10,13 +10,10 @@ import Newsletter from './newsletter/Newsletter'
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <Herosection />
       <Details />
       <Arrivals />
       <Category />
-      <Newsletter />
-      <Footer />
     </div>
   )
 }

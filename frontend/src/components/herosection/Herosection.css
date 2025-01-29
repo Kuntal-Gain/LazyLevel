@@ -11,7 +11,6 @@
     padding: 0 2rem;
     position: relative;
     flex-direction: column;
-    justify-content: center;
 }
 
 .herosection::before {
@@ -28,6 +27,7 @@
 .hero_content {
     z-index: 2;
     margin-bottom: 2rem;
+    margin-top: 5rem;
 }
 
 .hero_content h1 {
@@ -51,19 +51,23 @@
 }
 
 .hero_button button {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
+    border: 3px solid white !important;
     font-size: 1.1rem;
+    font-weight: bold;
     padding: 1rem 2rem;
     border: none;
     border-radius: 30px;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease;
     text-transform: uppercase;
 }
 
 .hero_button button:hover {
     transform: translate(0, -5px);
+    background-color: white;
+    color: black;
 }
 
 @media screen and (max-width: 768px) {

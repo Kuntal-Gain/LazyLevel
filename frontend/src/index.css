@@ -12,3 +12,30 @@ body {
     height: 100%;
     width: 100%;
 }
+
+.common_section{
+    position: relative;
+    background-image: url(./assets/commonImg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+}
+
+.common_section h1{
+    color: black !important;
+    font-size: 4rem;
+    font-weight: bolder;
+    position: absolute;
+    top: 60%;
+    left: 2%;
+}
+
+@media screen and (max-width: 768px){
+    .common_section h1{
+        margin-top: 4rem;
+        font-size: 3rem;
+        color: white !important;
+    }
+}
