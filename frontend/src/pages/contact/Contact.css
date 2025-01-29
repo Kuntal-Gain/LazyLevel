@@ -1,0 +1,230 @@
+.contact__container {
+    width: 100%;
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  
+  .contact__container .contact_right {
+    width: 50%;
+  }
+  
+  .contact_title h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #111;
+  }
+  
+  .contact_title p {
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #333;
+    margin-top: 5px;
+  }
+  
+  .contact_info {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .contact_info .contact_info_left {
+    width: 55%;
+    margin-top: 1rem;
+  }
+  
+  .contact_info_left h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #111;
+  }
+  
+  .contact_info_left ul {
+    margin-top: 1rem;
+    list-style: none;
+  }
+  
+  .contact_info_left ul li {
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .contact_info .contact_info_right {
+    width: 45%;
+    margin-top: 3rem;
+    margin-left: 3rem;
+  }
+  
+  .contact_info_right h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #111;
+  }
+  
+  .contact_info_right ul {
+    margin-top: 1rem;
+    list-style: none;
+  }
+  
+  .contact_info_right ul li {
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .contact__container .contact_left {
+    width: 50%;
+    margin-top: 7rem;
+  }
+  
+  .contact_left h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111;
+  }
+  
+  .contact_left p {
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #333;
+    margin-top: 5px;
+  }
+  
+  .contact_left .contact_form {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact_form .form_group {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .form_group input {
+    width: 50%;
+    border: 1px solid #333;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+  
+  .contact_form input {
+    width: 100%;
+    border: 1px solid #333;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+  
+  .contact_form textarea {
+    width: 100%;
+    border: 1px solid #333;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+  
+  .contact_form button {
+    width: 100%;
+    background-color: #111;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+
+  
+  @media (max-width: 768px) {
+    .contact__container {
+      flex-direction: column;
+      padding: 0 1rem;
+      gap: 2rem;
+    }
+  
+    .contact__container .contact_right {
+      width: 100%;
+    }
+
+    .contact_left h1{
+        font-size: 1.8rem;
+    }
+  
+    .contact_info {
+      flex-direction: column;
+    }
+  
+    .contact_info .contact_info_left,
+    .contact_info .contact_info_right {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 1rem;
+    }
+  
+    .contact__container .contact_left {
+      width: 100%;
+      margin-top: -1px;
+    }
+  
+    .contact_form .form_group {
+      flex-direction: column;
+    }
+  
+    .form_group input {
+      width: 100%;
+    }
+  
+    .contact_form input,
+    .contact_form textarea {
+      padding: 1rem;
+    }
+  
+    .contact_form button {
+      padding: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact_title h1 {
+      font-size: 1.5rem;
+    }
+  
+    .contact_title p {
+      font-size: 1rem;
+    }
+  
+    .contact_info_left h2,
+    .contact_info_right h2 {
+      font-size: 1.3rem;
+    }
+  
+    .contact_info_left ul li,
+    .contact_info_right ul li {
+      font-size: 1rem;
+    }
+  
+    .contact_form input,
+    .contact_form textarea {
+      font-size: 1rem;
+    }
+  
+    .contact_form button {
+      font-size: 1rem;
+    }
+  }
+  

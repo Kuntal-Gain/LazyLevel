@@ -1,26 +1,30 @@
 import React from "react";
+import { FaShoppingCart } from "react-icons/fa";
+import { MdOutlineVerifiedUser } from "react-icons/md";
+import { LiaAwardSolid } from "react-icons/lia";
+import { CiDollar } from "react-icons/ci";
 import "./Details.css";
 
 const features = [
   {
-    icon: "🛒",
+    icon: <FaShoppingCart />,
     title: "Free Delivery",
     description: "Enjoy fast and free shipping on all orders, no matter the size or location.",
   },
   {
-    icon: "🛡️",
+    icon: <MdOutlineVerifiedUser />,
     title: "Secure Payment",
     description: "Shop with confidence knowing your transactions are safe and protected.",
   },
   {
-    icon: "🎖️",
+    icon: <LiaAwardSolid />,
     title: "Quality Guarantee",
     description: "We ensure top-notch quality in every product to meet your expectations.",
   },
   {
-    icon: "💲",
+    icon: <CiDollar />,
     title: "Daily Offer",
-    description: "Discover amazing deals and discounts every day on your favorite items.",
+    description: "Discover huge deals and discounts every day on your favorite items.",
   },
 ];
 
